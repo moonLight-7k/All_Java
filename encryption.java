@@ -7,13 +7,10 @@ public class encryption {
     private ArrayList<Character> list;
     private ArrayList<Character> shuffledList;
     private char character;
-    private String line;
     private char[] letters;
-    private char[] secretLetters;
 
 
-    encryption() {
-        scan = new Scanner(System.in);
+
         random = new Random();
         list = new ArrayList();
         shuffledList = new ArrayList();
@@ -58,7 +55,6 @@ public class encryption {
         System.out.println("\n***A new key has been generated***");
 
 
-    }
 
     private void getKey() {
 
@@ -125,4 +121,4 @@ public class encryption {
     }
 
     
-}
+
