@@ -11,7 +11,7 @@ public class encryption {
 
     random=new Random();list=new ArrayList();shuffledList=new ArrayList();character=' ';
 
-    newKey();
+     newKey();
 
     askQuestion();
 
