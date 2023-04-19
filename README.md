@@ -1,8 +1,8 @@
-# Encryption system
+# Codes and mini projects while learning JAVA
 
-## Written in JAVA 
 
-### Features
+### [Encryption System](https://github.com/moonLight-7k/All_Java/tree/main/Encryption%20System)
+#### Features
 - Generates a Key.
 - randomize it.
 - Takes the input and encrypt it.
