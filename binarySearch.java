@@ -1,5 +1,3 @@
-package Searching;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -8,9 +6,9 @@ public class binarySearch {
 
         Scanner scan = new Scanner(System.in);
 
-        int[] arr = {10, 20, 30, 40, 1, 5, 6, 6, 87, 4, 56};
+        int[] arr = { 10, 20, 30, 40, 1, 5, 6, 6, 87, 4, 56 };
         Arrays.sort(arr);
-        
+
         int n = arr.length;
         System.out.println(" ");
         System.out.print("Entre the element to search: ");
