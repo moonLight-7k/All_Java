@@ -9,15 +9,12 @@ public class encryption {
     private char character;
     private char[] letters;
 
+    random=new Random();list=new ArrayList();shuffledList=new ArrayList();character=' ';
 
+    newKey();
 
-        random = new Random();
-        list = new ArrayList();
-        shuffledList = new ArrayList();
-        character = ' ';
+    askQuestion();
 
-        newKey();
-        askQuestion();
     }
 
     private void askQuestion() {
@@ -53,8 +50,6 @@ public class encryption {
         shuffledList = new ArrayList(list);
         Collections.shuffle(shuffledList);
         System.out.println("\n***A new key has been generated***");
-
-
 
     private void getKey() {
 
@@ -119,6 +114,3 @@ public class encryption {
         System.out.println("Byeeeee!");
         System.exit(0);
     }
-
-    
-
